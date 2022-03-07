@@ -111,7 +111,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	log.Printf("Successfully uploaded %s of size %d\n", objectName, n)
+	log.Printf("Successfully uploaded %s of size %v\n", objectName, n)
 }
 ```
 
